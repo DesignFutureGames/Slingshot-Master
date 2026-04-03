@@ -1,1 +1,395 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Slingshot Master 利用規約</title>
+  <meta name="description" content="Slingshot Master 利用規約" />
+  <style>
+    :root{
+      --bg:#f4f4f5;
+      --card:#ffffff;
+      --text:#111827;
+      --muted:#6b7280;
+      --line:#d1d5db;
+      --blue:#2563eb;
+      --blue-soft:#eff6ff;
+      --shadow:0 10px 30px rgba(0,0,0,.08);
+      --radius:18px;
+    }
 
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0}
+    body{
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans JP", "Hiragino Sans", "Yu Gothic", Arial, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.72;
+    }
+
+    a{
+      color:var(--blue);
+      text-decoration:none;
+    }
+    a:hover{ text-decoration:underline; }
+
+    .wrap{
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+
+    .card{
+      background:var(--card);
+      border:1px solid #e5e7eb;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+
+    .hero{
+      padding: 34px 28px 18px;
+      border-bottom:1px solid #eef0f3;
+      background: linear-gradient(180deg, #ffffff 0%, #fbfbfc 100%);
+    }
+
+    .title{
+      margin:0 0 10px;
+      font-size: clamp(28px, 4vw, 54px);
+      line-height:1.12;
+      font-weight:800;
+      letter-spacing:-0.03em;
+      word-break:keep-all;
+    }
+
+    .meta{
+      font-size: 15px;
+      color:var(--muted);
+      margin-bottom:18px;
+    }
+
+    .lang-tabs{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+
+    .lang-tabs a{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:88px;
+      padding:11px 16px;
+      border:1px solid var(--line);
+      border-radius:12px;
+      background:#fff;
+      color:var(--blue);
+      font-weight:700;
+      font-size:16px;
+      text-decoration:none;
+      transition:all .15s ease;
+    }
+
+    .lang-tabs a:hover{
+      background:#f9fafb;
+      border-color:#c4cbd4;
+      transform:translateY(-1px);
+    }
+
+    .lang-tabs a.active{
+      background:var(--blue-soft);
+      border-color:#93c5fd;
+      color:#1d4ed8;
+      box-shadow: inset 0 0 0 1px rgba(37,99,235,.06);
+    }
+
+    .content{
+      padding: 26px 28px 34px;
+    }
+
+    h2{
+      margin: 28px 0 10px;
+      font-size: 24px;
+      line-height:1.35;
+      letter-spacing:-0.02em;
+    }
+
+    p{
+      margin: 10px 0 0;
+      font-size: 16px;
+      word-break:keep-all;
+    }
+
+    ul{
+      margin: 10px 0 0 20px;
+      padding:0;
+    }
+
+    li{
+      margin: 6px 0;
+      font-size:16px;
+    }
+
+    .note{
+      margin-top:16px;
+      padding:14px 16px;
+      border:1px solid #e5e7eb;
+      border-radius:14px;
+      background:#fafafa;
+      color:#374151;
+      font-size:15px;
+    }
+
+    .footer{
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top:1px solid #eef0f3;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .small{
+      font-size:14px;
+      color:var(--muted);
+    }
+
+    @media (max-width: 640px){
+      .wrap{ padding: 18px 12px 44px; }
+      .hero{ padding: 24px 18px 16px; }
+      .content{ padding: 20px 18px 26px; }
+      .lang-tabs a{
+        min-width:auto;
+        padding:10px 14px;
+        font-size:15px;
+      }
+      h2{ font-size:21px; }
+      p, li{ font-size:15px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="card">
+      <section class="hero">
+        <h1 class="title">Slingshot Master 利用規約</h1>
+        <div class="meta">施行日: 2026-04-15 · バージョン: 2026-04-15</div>
+
+        <nav class="lang-tabs" aria-label="言語選択">
+          <a href="./ko.html" lang="ko">한국어</a>
+          <a href="./en.html" lang="en">English</a>
+          <a class="active" href="./ja.html" lang="ja">日本語</a>
+        </nav>
+      </section>
+
+      <section class="content">
+        <p>
+          本利用規約は、Design Future Games（以下「開発者」といいます）が提供するモバイルゲーム
+          <strong>Slingshot Master</strong>（以下「本サービス」といいます）の利用に関し、
+          利用者と開発者との間の権利、義務、責任その他必要な事項を定めるものです。
+        </p>
+
+        <div class="note">
+          個人情報の取扱いに関する詳細は、
+          <a href="../privacy/ja.html">プライバシーポリシー</a>をご確認ください。
+        </div>
+
+        <h2>第1条（適用および同意）</h2>
+        <p>
+          利用者が本サービスをダウンロード、インストール、アクセス、起動、利用し、または本サービス内の商品を購入した場合、
+          本規約に同意したものとみなされます。
+        </p>
+        <p>
+          利用者が本規約に同意しない場合は、本サービスの利用および決済を中止し、アプリを削除しなければなりません。
+        </p>
+
+        <h2>第2条（定義）</h2>
+        <ul>
+          <li>「利用者」とは、本規約に従って本サービスを利用する者をいいます。</li>
+          <li>「連携サービス」とは、Google Play Games、Google Play Billing、Google AdMobその他本サービスの提供に関連する第三者のサービスおよびプラットフォームをいいます。</li>
+          <li>「アプリ内商品」とは、本サービス内でGoogle Play Billingを通じて購入できるデジタル商品、機能、広告削除商品、サブスクリプション商品その他有料コンテンツをいいます。</li>
+          <li>「コンテンツ」とは、本サービス内のゲーム情報、画像、文章、音声、ランキング、記録、有料商品、広告その他一切の要素をいいます。</li>
+        </ul>
+
+        <h2>第3条（本サービスの内容）</h2>
+        <p>
+          本サービスはモバイル端末向けに提供されるゲームサービスであり、開発者は本サービスの一部として以下の機能を提供する場合があります。
+        </p>
+        <ul>
+          <li>Google Play Gamesログイン</li>
+          <li>Google AdMob広告</li>
+          <li>Google Play Billingによるアプリ内課金</li>
+          <li>その他ゲーム進行、記録、設定、演出および運営に関する機能</li>
+        </ul>
+
+        <h2>第4条（Google Play Gamesログイン）</h2>
+        <p>
+          Google Play Gamesログイン機能は任意で提供される場合があります。利用者が当該機能を利用する場合、
+          Googleが定める規約、ポリシー、アカウント状態、認証方式およびプラットフォーム上の制限が適用されることがあります。
+        </p>
+        <p>
+          開発者は、Google Play Games自体の障害、ポリシー変更、ログイン失敗、アカウント制限、機能縮小または提供中止により生じた問題について責任を負いません。
+        </p>
+
+        <h2>第5条（アプリ内課金および返金）</h2>
+        <p>
+          本サービス内のアプリ内商品の決済は、原則としてGoogle Play Billingを通じてのみ処理されます。
+        </p>
+        <p>
+          アプリ内商品の価格、通貨、税金、決済の承認または拒否、取消し、返金、定期購入の解約、購入履歴の確認その他決済に関する事項は、
+          Google Playおよび関連する決済手段提供者のポリシーおよび手続に従います。
+        </p>
+        <p>
+          返金の申請は、原則としてGoogle Playが提供する正式な手続を通じて利用者自身が行うものとし、
+          開発者はGoogle Playを介さない個別の直接返金、現金払い戻し、または個別の決済取消しを行いません。
+        </p>
+        <p>
+          開発者は、決済手段情報、クレジットカード情報、請求情報等を直接収集または保存せず、
+          購入反映や技術的な復元可否に関する限定的な確認を除き、決済承認、返金承認、返金時期、返金金額等を決定しません。
+        </p>
+        <p>
+          非消耗型商品または有効なサブスクリプション商品は、同一のGoogleアカウント等のプラットフォーム条件に応じて復元できる場合がありますが、
+          消耗型商品は使用または付与後に復元できない場合があります。
+        </p>
+        <p>
+          ただし、適用される法令により開発者に直接義務が課される場合は、その法令が要求する範囲に限り当該法令に従います。
+        </p>
+
+        <h2>第6条（広告および第三者サービス）</h2>
+        <p>
+          本サービスにはGoogle AdMob広告が含まれる場合があります。
+        </p>
+        <p>
+          広告の表示可否、頻度、形式、パーソナライズの有無、リワード広告の利用可否は、国、端末環境、通信状況、利用者設定、
+          同意状況、広告ネットワークの事情およびプラットフォームポリシーにより異なる場合があります。
+        </p>
+        <p>
+          開発者は、第三者広告、外部リンク、広告ネットワーク、プラットフォーム障害、広告の未表示、広告の読み込み失敗、
+          広告報酬の未付与、広告内容自体、または第三者サービスの中断について、法令で許される最大限の範囲で責任を負いません。
+        </p>
+
+        <h2>第7条（データの保存および処理）</h2>
+        <p>
+          開発者は、独自の会員データベースまたは独自サーバー上に利用者の個人情報を継続的に保存することを前提として本サービスを運営するものではありません。
+        </p>
+        <p>
+          本サービスの利用過程において、一部のゲーム進行情報、設定値または一時的なデータが利用者の端末内にローカル保存される場合があります。
+        </p>
+        <p>
+          また、Google Play Games、Google Play Billing、Google AdMob等の連携サービスは、
+          各自のポリシーおよび技術上の必要に応じて関連情報を処理する場合があります。詳細については、
+          当該第三者のポリシーおよび開発者のプライバシーポリシーをご確認ください。
+        </p>
+        <p>
+          本サービスは、原則として特別な機微な権限要求を前提としませんが、OS、ストア、連携サービスまたは適用法令に応じて必要な案内または同意手続が表示される場合があります。
+        </p>
+
+        <h2>第8条（利用者の義務および禁止行為）</h2>
+        <p>利用者は、以下の各行為を行ってはなりません。</p>
+        <ul>
+          <li>マクロ、ハッキング、メモリ改変、不具合悪用、自動化ツール等の異常な方法によってゲーム結果を操作する行為</li>
+          <li>ランキング、記録、報酬、決済、広告表示または報酬システムを不正に操作する行為</li>
+          <li>アプリのリバースエンジニアリング、逆コンパイル、改変、不正複製または無断配布行為</li>
+          <li>チャージバックの濫用、不正決済、返金悪用またはプラットフォームポリシーの回避行為</li>
+          <li>適用法令、公序良俗、プラットフォームポリシーまたは本規約に違反する行為</li>
+        </ul>
+
+        <h2>第9条（知的財産権）</h2>
+        <p>
+          本サービスおよびコンテンツに関する著作権、商標権、意匠権、データベース権その他一切の知的財産権は、開発者または正当な権利者に帰属します。
+        </p>
+        <p>
+          利用者は、開発者の事前の書面による同意なく、本サービスまたはコンテンツを複製、改変、配布、販売、貸与、送信、公衆送信、
+          二次的著作物の作成、リバースエンジニアリングまたは商業的利用をしてはなりません。
+        </p>
+
+        <h2>第10条（本サービスの変更、中断および終了）</h2>
+        <p>
+          開発者は、運営上、技術上、セキュリティ上またはポリシー上の必要に応じて、本サービスの全部または一部をいつでも変更、修正、制限、中断または終了することができます。
+        </p>
+        <p>
+          これに伴い、ゲームルール、難易度、バランス、UI、演出、広告形式、アプリ内商品の構成、イベント、ログイン機能、
+          保存データの互換性等が変更される場合があります。
+        </p>
+        <p>
+          開発者は可能な範囲で事前告知に努めますが、緊急のセキュリティ対応、バグ修正、プラットフォームポリシー遵守、
+          外部サービス障害その他やむを得ない事由がある場合は、事前通知なく変更または中断することがあります。
+        </p>
+
+        <h2>第11条（保証の否認）</h2>
+        <p>
+          本サービスは「現状有姿」かつ「提供可能な範囲」で提供されます。
+        </p>
+        <p>
+          開発者は、本サービスが常に完全であり、中断がなく、エラーがなく、安全であり、特定の目的に適合し、
+          利用者の期待を満たし、一定の結果を保証することについて、明示または黙示を問わず一切保証しません。
+        </p>
+        <p>
+          開発者は、すべての端末との互換性、通信状況、OSアップデート、ストアポリシー変更、
+          または第三者サービスの変更もしくは終了について保証しません。
+        </p>
+
+        <h2>第12条（責任の制限）</h2>
+        <p>
+          法令で許される最大限の範囲において、開発者は、本サービスの利用または利用不能に関連して生じる間接損害、特別損害、結果的損害、
+          懲罰的損害、付随的損害、データ喪失、収益喪失、機会損失、期待利益の喪失または営業上の損害について責任を負いません。
+        </p>
+        <p>
+          特に、以下の各事由により生じた損害について、開発者は法令で許される最大限の範囲で責任を負いません。
+        </p>
+        <ul>
+          <li>利用者自身の責めに帰すべき事由、端末の紛失、アカウント管理不備またはパスワード管理不備</li>
+          <li>通信障害、通信事業者の問題、OSエラーまたは端末製造者側の問題</li>
+          <li>Google Play、Google Play Games、Google Play Billing、Google AdMobその他第三者プラットフォームの障害、ポリシー変更、アカウント制限、決済失敗または返金処理</li>
+          <li>アプリ削除、端末変更、アカウント不一致、ローカルデータ初期化または利用者の操作によるデータ損失</li>
+          <li>天災、停電、ハッキング、サービス拒否攻撃または政府措置等の不可抗力事由</li>
+        </ul>
+        <p>
+          法令で許される最大限の範囲において、開発者の損害賠償責任の総額は、請求原因となる事象の直前3か月間に
+          利用者が本サービスに関して実際に支払った金額を上限とします。
+        </p>
+        <p>
+          ただし、開発者の故意または重大な過失によって生じた損害、および適用法令上制限できない責任については、本条は適用されません。
+        </p>
+
+        <h2>第13条（利用制限）</h2>
+        <p>
+          開発者は、利用者が本規約、適用法令またはプラットフォームポリシーに違反した場合、事前通知なく本サービスの利用を制限することができます。
+        </p>
+        <p>
+          この場合、開発者は必要に応じて、ログイン機能の制限、記録の初期化、ランキングからの除外、一部機能の遮断または本サービスの利用停止等の措置を講じることができます。
+        </p>
+
+        <h2>第14条（未成年者による利用）</h2>
+        <p>
+          未成年者は、親権者または法定代理人の同意を得たうえで本サービスを利用し、または決済を行うものとします。
+        </p>
+        <p>
+          未成年者がその同意なく購入を行った場合、取消しまたは返金の可否は適用法令およびプラットフォームポリシーに基づいて判断される場合があります。
+          ただし、その手続は原則としてGoogle Playのポリシーおよび手続に従います。
+        </p>
+
+        <h2>第15条（準拠法および管轄）</h2>
+        <p>
+          本規約は、大韓民国の法令に準拠し、同法に従って解釈されます。
+        </p>
+        <p>
+          本サービスに関連して紛争が生じた場合、当事者はまず誠実に協議して解決するよう努めるものとします。
+        </p>
+        <p>
+          協議によって解決できない紛争については、適用法令で許される範囲において、大韓民国ソウル中央地方裁判所を第一審の専属的合意管轄裁判所とします。
+          ただし、利用者の居住地または適用法令により強行的に定められる管轄がある場合は、その規定が優先されます。
+        </p>
+
+        <h2>第16条（連絡先）</h2>
+        <p>開発者名: Design Future Games</p>
+        <p>メール: <a href="mailto:designfuturegames.cs@gmail.com">designfuturegames.cs@gmail.com</a></p>
+
+        <div class="footer">
+          <div>© Design Future Games. All rights reserved.</div>
+          <div class="small">このページはSlingshot Masterの日本語版利用規約ページです。</div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
